@@ -11,6 +11,9 @@
 </template>
 
 <script setup lang="ts">
+const { sayHello } = useUtils();
+sayHello("Hello Artur");
+
 
 </script>
 
