@@ -14,7 +14,9 @@
 const { sayHello } = useUtils();
 sayHello("Hello Artur");
 
-
+definePageMeta({
+    middleware: 'auth',
+})
 </script>
 
 <style scoped></style>
